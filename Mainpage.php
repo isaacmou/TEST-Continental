@@ -13,7 +13,7 @@ $results_per_page = 4; // Number of products per page
 if (!isset($_GET['page'])) {
     $page = 1;
 } else {
-    $page = $_GET['page'];
+    echo"hi";
 }
 
 $start_index = ($page - 1) * $results_per_page;
