@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit(); // Stop further execution
     } else {
         // No match found
-        echo "No match found!";
+        echo "User cannot found!";
     }
 }
 
